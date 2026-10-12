@@ -1,0 +1,2867 @@
+{
+  "from_snapshot": "v217",
+  "to_snapshot": "v310",
+  "evidence_scope": "Only two STEP exports were supplied. This is a snapshot comparison, not an intermediate edit history.",
+  "matching_rule": "Exact case-sensitive PRODUCT name family after removing terminal :occurrence and vNUMBER; entity #IDs are never matched across files.",
+  "caveats": [
+    "Added/removed families are unmatched labels, not proof a physical component was added/removed; a rename can appear as one of each.",
+    "Version tokens are labels, not validated source-control revisions.",
+    "Entity counts describe export structure and may change with exporter versions; they do not alone prove a geometric change.",
+    "Quantity counts are product/assembly-edge records, not expanded leaf-part quantities.",
+    "No mass, volume, bounding-box or geometric equivalence claim is made."
+  ],
+  "added_families": [
+    {
+      "family": "90576A102_Medium-Strength Steel Nylon-Insert Locknut",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262952"
+      ],
+      "usage_refs": [
+        "#22276",
+        "#22277",
+        "#22278",
+        "#22279",
+        "#22280",
+        "#22281",
+        "#22282",
+        "#22283"
+      ]
+    },
+    {
+      "family": "90576A115_Medium-Strength Steel Nylon-Insert Locknut",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2259385"
+      ],
+      "usage_refs": [
+        "#17185",
+        "#17186",
+        "#17187",
+        "#17188",
+        "#17189",
+        "#17190"
+      ]
+    },
+    {
+      "family": "90591A250_Zinc-Plated Steel Hex Nut",
+      "product_records": 4,
+      "assembly_usage_records": 14,
+      "versions": {
+        "unversioned": 4
+      },
+      "product_refs": [
+        "#2259397",
+        "#2262926",
+        "#2262969",
+        "#2263014"
+      ],
+      "usage_refs": [
+        "#17203",
+        "#17204",
+        "#17205",
+        "#22167",
+        "#22168",
+        "#22169",
+        "#22301",
+        "#22302",
+        "#22303",
+        "#22304",
+        "#22305",
+        "#22306",
+        "#22429",
+        "#22430"
+      ]
+    },
+    {
+      "family": "90591A250_Zinc-Plated Steel Hex Nut (2)",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262934"
+      ],
+      "usage_refs": [
+        "#22190",
+        "#22191",
+        "#22192",
+        "#22193",
+        "#22205",
+        "#22206",
+        "#22207",
+        "#22208"
+      ]
+    },
+    {
+      "family": "90591A250_Zinc-Plated Steel Hex Nut (3)",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262937"
+      ],
+      "usage_refs": [
+        "#22201",
+        "#22202",
+        "#22203",
+        "#22216",
+        "#22217",
+        "#22218"
+      ]
+    },
+    {
+      "family": "90591A265_Zinc-Plated Steel Hex Nut",
+      "product_records": 1,
+      "assembly_usage_records": 12,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2260421"
+      ],
+      "usage_refs": [
+        "#18864",
+        "#18865",
+        "#18866",
+        "#18867",
+        "#18868",
+        "#18869",
+        "#18870",
+        "#18871",
+        "#18872",
+        "#18873",
+        "#18874",
+        "#18875"
+      ]
+    },
+    {
+      "family": "90593A001_Black-Oxide Steel Hex Nut",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262986"
+      ],
+      "usage_refs": [
+        "#22369",
+        "#22370",
+        "#22371",
+        "#22372",
+        "#22397",
+        "#22398",
+        "#22399",
+        "#22400"
+      ]
+    },
+    {
+      "family": "91290A011_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 4,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2263006"
+      ],
+      "usage_refs": [
+        "#22342",
+        "#22343",
+        "#22349",
+        "#22350"
+      ]
+    },
+    {
+      "family": "91290A015_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262985"
+      ],
+      "usage_refs": [
+        "#22365",
+        "#22366",
+        "#22367",
+        "#22368",
+        "#22393",
+        "#22394",
+        "#22395",
+        "#22396"
+      ]
+    },
+    {
+      "family": "91290A019_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 4,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262956"
+      ],
+      "usage_refs": [
+        "#22244",
+        "#22245",
+        "#22247",
+        "#22248"
+      ]
+    },
+    {
+      "family": "91290A049_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 12,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2260422"
+      ],
+      "usage_refs": [
+        "#18876",
+        "#18877",
+        "#18878",
+        "#18879",
+        "#18880",
+        "#18881",
+        "#18882",
+        "#18883",
+        "#18884",
+        "#18885",
+        "#18886",
+        "#18887"
+      ]
+    },
+    {
+      "family": "91290A115_Alloy Steel Socket Head Screw",
+      "product_records": 3,
+      "assembly_usage_records": 24,
+      "versions": {
+        "unversioned": 3
+      },
+      "product_refs": [
+        "#2262935",
+        "#2262988",
+        "#2263008"
+      ],
+      "usage_refs": [
+        "#22194",
+        "#22195",
+        "#22196",
+        "#22197",
+        "#22209",
+        "#22210",
+        "#22211",
+        "#22212",
+        "#22313",
+        "#22314",
+        "#22315",
+        "#22316",
+        "#22317",
+        "#22318",
+        "#22319",
+        "#22320",
+        "#22360",
+        "#22361",
+        "#22362",
+        "#22363",
+        "#22388",
+        "#22389",
+        "#22390",
+        "#22391"
+      ]
+    },
+    {
+      "family": "91290A123_Alloy Steel Socket Head Screw (1)",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262936"
+      ],
+      "usage_refs": [
+        "#22198",
+        "#22199",
+        "#22200",
+        "#22213",
+        "#22214",
+        "#22215"
+      ]
+    },
+    {
+      "family": "91290A125_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2263007"
+      ],
+      "usage_refs": [
+        "#22344",
+        "#22345",
+        "#22346",
+        "#22347",
+        "#22351",
+        "#22352",
+        "#22353",
+        "#22354"
+      ]
+    },
+    {
+      "family": "91290A185_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 4,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2259406"
+      ],
+      "usage_refs": [
+        "#19047",
+        "#19048",
+        "#19049",
+        "#19050"
+      ]
+    },
+    {
+      "family": "91290A188_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2263016"
+      ],
+      "usage_refs": [
+        "#22432",
+        "#22433"
+      ]
+    },
+    {
+      "family": "91290A190_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2259404"
+      ],
+      "usage_refs": [
+        "#19035",
+        "#19036",
+        "#19037",
+        "#19038",
+        "#19039",
+        "#19040"
+      ]
+    },
+    {
+      "family": "91290A192_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2259405"
+      ],
+      "usage_refs": [
+        "#19041",
+        "#19042",
+        "#19043",
+        "#19044",
+        "#19045",
+        "#19046"
+      ]
+    },
+    {
+      "family": "91290A360_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2260434"
+      ],
+      "usage_refs": [
+        "#18920",
+        "#18921",
+        "#18922",
+        "#18923",
+        "#18924",
+        "#18925"
+      ]
+    },
+    {
+      "family": "91294A009_Black-Oxide Alloy Steel Hex Drive Flat Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2259391"
+      ],
+      "usage_refs": [
+        "#17193",
+        "#17194",
+        "#17195",
+        "#17196",
+        "#17197",
+        "#17198"
+      ]
+    },
+    {
+      "family": "91828A211_18-8 Stainless Steel Hex Nut",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262951"
+      ],
+      "usage_refs": [
+        "#22235",
+        "#22236",
+        "#22237",
+        "#22238",
+        "#22239",
+        "#22240",
+        "#22241",
+        "#22242"
+      ]
+    },
+    {
+      "family": "97259A101_Low-Strength Steel Thin Square Nut",
+      "product_records": 2,
+      "assembly_usage_records": 10,
+      "versions": {
+        "unversioned": 2
+      },
+      "product_refs": [
+        "#2262989",
+        "#2263000"
+      ],
+      "usage_refs": [
+        "#22326",
+        "#22332",
+        "#22373",
+        "#22375",
+        "#22376",
+        "#22377",
+        "#22401",
+        "#22403",
+        "#22404",
+        "#22405"
+      ]
+    },
+    {
+      "family": "97259A101_Low-Strength Steel Thin Square Nut (1)",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2263001"
+      ],
+      "usage_refs": [
+        "#22327",
+        "#22328",
+        "#22329",
+        "#22330",
+        "#22333",
+        "#22334",
+        "#22335",
+        "#22336"
+      ]
+    },
+    {
+      "family": "ASS-C5",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "49": 1
+      },
+      "product_refs": [
+        "#2262921"
+      ],
+      "usage_refs": [
+        "#22443"
+      ]
+    },
+    {
+      "family": "ASS-C8 V°3",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "14": 1
+      },
+      "product_refs": [
+        "#2262965"
+      ],
+      "usage_refs": [
+        "#22444"
+      ]
+    },
+    {
+      "family": "ASS_Bouchon",
+      "product_records": 8,
+      "assembly_usage_records": 8,
+      "versions": {
+        "2": 8
+      },
+      "product_refs": [
+        "#2262923",
+        "#2262924",
+        "#2262929",
+        "#2262930",
+        "#2262939",
+        "#2262940",
+        "#2262942",
+        "#2262943"
+      ],
+      "usage_refs": [
+        "#22221",
+        "#22222",
+        "#22225",
+        "#22226",
+        "#22229",
+        "#22230",
+        "#22233",
+        "#22234"
+      ]
+    },
+    {
+      "family": "ASS_C2_N4",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "6": 1
+      },
+      "product_refs": [
+        "#2262970"
+      ],
+      "usage_refs": [
+        "#22445"
+      ]
+    },
+    {
+      "family": "ASS_C4_V°2",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "18": 1
+      },
+      "product_refs": [
+        "#2260431"
+      ],
+      "usage_refs": [
+        "#22440"
+      ]
+    },
+    {
+      "family": "ASS_C9",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "4": 1
+      },
+      "product_refs": [
+        "#2262892"
+      ],
+      "usage_refs": [
+        "#22441"
+      ]
+    },
+    {
+      "family": "ASS_PORTE-MECANISME",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2262976",
+        "#2262994"
+      ],
+      "usage_refs": [
+        "#22382",
+        "#22410"
+      ]
+    },
+    {
+      "family": "ActionneurCoude",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262910"
+      ],
+      "usage_refs": [
+        "#22154"
+      ]
+    },
+    {
+      "family": "ActionneurDroit",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262996"
+      ],
+      "usage_refs": [
+        "#22356",
+        "#22384"
+      ]
+    },
+    {
+      "family": "AnneauSupportC5 N1",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "30": 2
+      },
+      "product_refs": [
+        "#2262931",
+        "#2262932"
+      ],
+      "usage_refs": [
+        "#22260",
+        "#22261"
+      ]
+    },
+    {
+      "family": "AnneauSupportC5 N2",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "4": 1
+      },
+      "product_refs": [
+        "#2262925"
+      ],
+      "usage_refs": [
+        "#22258"
+      ]
+    },
+    {
+      "family": "BagueLiberation",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262904"
+      ],
+      "usage_refs": [
+        "#22138"
+      ]
+    },
+    {
+      "family": "Bille_10mm",
+      "product_records": 1,
+      "assembly_usage_records": 3,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262901"
+      ],
+      "usage_refs": [
+        "#22132",
+        "#22133",
+        "#22134"
+      ]
+    },
+    {
+      "family": "Bille_15mm",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262895"
+      ],
+      "usage_refs": [
+        "#22118",
+        "#22119",
+        "#22120",
+        "#22121",
+        "#22122",
+        "#22123"
+      ]
+    },
+    {
+      "family": "BouchonCouvercle",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262918"
+      ],
+      "usage_refs": [
+        "#22165"
+      ]
+    },
+    {
+      "family": "Camera-holder V°2",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "6": 1
+      },
+      "product_refs": [
+        "#2260423"
+      ],
+      "usage_refs": [
+        "#18919"
+      ]
+    },
+    {
+      "family": "CasePara",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2262971",
+        "#2262980"
+      ],
+      "usage_refs": [
+        "#22423",
+        "#22424"
+      ]
+    },
+    {
+      "family": "CasePara_top",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2262973",
+        "#2262987"
+      ],
+      "usage_refs": [
+        "#22374",
+        "#22402"
+      ]
+    },
+    {
+      "family": "CouplageAxe",
+      "product_records": 2,
+      "assembly_usage_records": 4,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2262911",
+        "#2262997"
+      ],
+      "usage_refs": [
+        "#22155",
+        "#22157",
+        "#22357",
+        "#22385"
+      ]
+    },
+    {
+      "family": "CouronneSecondaire",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262898"
+      ],
+      "usage_refs": [
+        "#22129"
+      ]
+    },
+    {
+      "family": "Couvercle",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262917"
+      ],
+      "usage_refs": [
+        "#22164"
+      ]
+    },
+    {
+      "family": "EcrouVerrouillage",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262897"
+      ],
+      "usage_refs": [
+        "#22128"
+      ]
+    },
+    {
+      "family": "Etoile",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262894"
+      ],
+      "usage_refs": [
+        "#22117"
+      ]
+    },
+    {
+      "family": "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262982"
+      ],
+      "usage_refs": [
+        "#22307",
+        "#22310"
+      ]
+    },
+    {
+      "family": "Joint_8mm",
+      "product_records": 1,
+      "assembly_usage_records": 8,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262944"
+      ],
+      "usage_refs": [
+        "#22219",
+        "#22220",
+        "#22223",
+        "#22224",
+        "#22227",
+        "#22228",
+        "#22231",
+        "#22232"
+      ]
+    },
+    {
+      "family": "LED 5mm_A",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "4": 2
+      },
+      "product_refs": [
+        "#2262958",
+        "#2262960"
+      ],
+      "usage_refs": [
+        "#22252",
+        "#22256"
+      ]
+    },
+    {
+      "family": "LED Bulb_A",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262963"
+      ],
+      "usage_refs": [
+        "#22251",
+        "#22255"
+      ]
+    },
+    {
+      "family": "LED Negiative Leg_A",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262961"
+      ],
+      "usage_refs": [
+        "#22249",
+        "#22253"
+      ]
+    },
+    {
+      "family": "LED Positive Leg_A",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262962"
+      ],
+      "usage_refs": [
+        "#22250",
+        "#22254"
+      ]
+    },
+    {
+      "family": "M3 - 220mm",
+      "product_records": 1,
+      "assembly_usage_records": 4,
+      "versions": {
+        "3": 1
+      },
+      "product_refs": [
+        "#2262946"
+      ],
+      "usage_refs": [
+        "#22268",
+        "#22269",
+        "#22270",
+        "#22271"
+      ]
+    },
+    {
+      "family": "M4 160mm",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "2": 1
+      },
+      "product_refs": [
+        "#2259398"
+      ],
+      "usage_refs": [
+        "#19001",
+        "#19002"
+      ]
+    },
+    {
+      "family": "PCB-INTERFACE N1",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2262972",
+        "#2262981"
+      ],
+      "usage_refs": [
+        "#22364",
+        "#22392"
+      ]
+    },
+    {
+      "family": "PCB-INTERFACE N2",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2262979",
+        "#2263003"
+      ],
+      "usage_refs": [
+        "#22341",
+        "#22348"
+      ]
+    },
+    {
+      "family": "PCB_INTERFACE_OBC_PCB",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262984"
+      ],
+      "usage_refs": [
+        "#22309",
+        "#22312"
+      ]
+    },
+    {
+      "family": "PCB_interface_moteur_PCB",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2263005"
+      ],
+      "usage_refs": [
+        "#22338",
+        "#22340"
+      ]
+    },
+    {
+      "family": "PignonLiberation",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262905"
+      ],
+      "usage_refs": [
+        "#22139"
+      ]
+    },
+    {
+      "family": "Pin",
+      "product_records": 1,
+      "assembly_usage_records": 4,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262990"
+      ],
+      "usage_refs": [
+        "#22378",
+        "#22379",
+        "#22406",
+        "#22407"
+      ]
+    },
+    {
+      "family": "PinHeader_1x02_P2.54mm_Vertical",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2263004"
+      ],
+      "usage_refs": [
+        "#22337",
+        "#22339"
+      ]
+    },
+    {
+      "family": "PinSocket_1x02_P2.54mm_Vertical",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262983"
+      ],
+      "usage_refs": [
+        "#22308",
+        "#22311"
+      ]
+    },
+    {
+      "family": "PorteCouronneSecondaire",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262899"
+      ],
+      "usage_refs": [
+        "#22130"
+      ]
+    },
+    {
+      "family": "PorteMecanisme",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2262978",
+        "#2263002"
+      ],
+      "usage_refs": [
+        "#22359",
+        "#22387"
+      ]
+    },
+    {
+      "family": "PortePeau",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "2": 1
+      },
+      "product_refs": [
+        "#2262909"
+      ],
+      "usage_refs": [
+        "#22153"
+      ]
+    },
+    {
+      "family": "Protection-Bague",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "6": 1
+      },
+      "product_refs": [
+        "#2259395"
+      ],
+      "usage_refs": [
+        "#17199"
+      ]
+    },
+    {
+      "family": "ROULEMENT22x8",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262995"
+      ],
+      "usage_refs": [
+        "#22355",
+        "#22383"
+      ]
+    },
+    {
+      "family": "RingPara",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 2
+      },
+      "product_refs": [
+        "#2263009",
+        "#2263010"
+      ],
+      "usage_refs": [
+        "#22425",
+        "#22426"
+      ]
+    },
+    {
+      "family": "RondelleCoupleur",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262912"
+      ],
+      "usage_refs": [
+        "#22158",
+        "#22159"
+      ]
+    },
+    {
+      "family": "Roue",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "2": 2
+      },
+      "product_refs": [
+        "#2262977",
+        "#2262998"
+      ],
+      "usage_refs": [
+        "#22358",
+        "#22386"
+      ]
+    },
+    {
+      "family": "RoulementCouplage",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262913"
+      ],
+      "usage_refs": [
+        "#22156",
+        "#22160"
+      ]
+    },
+    {
+      "family": "RunCam_DVR",
+      "product_records": 1,
+      "assembly_usage_records": 3,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2260420"
+      ],
+      "usage_refs": [
+        "#18849",
+        "#18862",
+        "#18863"
+      ]
+    },
+    {
+      "family": "Runcam Nano",
+      "product_records": 1,
+      "assembly_usage_records": 3,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2260430"
+      ],
+      "usage_refs": [
+        "#18915",
+        "#18916",
+        "#18917"
+      ]
+    },
+    {
+      "family": "Smart G2 30C LiPos",
+      "product_records": 1,
+      "assembly_usage_records": 3,
+      "versions": {
+        "4": 1
+      },
+      "product_refs": [
+        "#2262967"
+      ],
+      "usage_refs": [
+        "#22292",
+        "#22293",
+        "#22294"
+      ]
+    },
+    {
+      "family": "Spacer - LED",
+      "product_records": 3,
+      "assembly_usage_records": 4,
+      "versions": {
+        "8": 2,
+        "3": 1
+      },
+      "product_refs": [
+        "#2262957",
+        "#2262959",
+        "#2262964"
+      ],
+      "usage_refs": [
+        "#22286",
+        "#22287",
+        "#22288",
+        "#22289"
+      ]
+    },
+    {
+      "family": "Spacer - M3 - 74mm",
+      "product_records": 4,
+      "assembly_usage_records": 4,
+      "versions": {
+        "4": 4
+      },
+      "product_refs": [
+        "#2262947",
+        "#2262948",
+        "#2262949",
+        "#2262950"
+      ],
+      "usage_refs": [
+        "#22272",
+        "#22273",
+        "#22274",
+        "#22275"
+      ]
+    },
+    {
+      "family": "Spur Gear (15 teeth)",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#2262906"
+      ],
+      "usage_refs": [
+        "#22097"
+      ]
+    },
+    {
+      "family": "Support - Camera V2",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "15": 2
+      },
+      "product_refs": [
+        "#2262953",
+        "#2262954"
+      ],
+      "usage_refs": [
+        "#22284",
+        "#22285"
+      ]
+    },
+    {
+      "family": "Support-Bat n°4",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "18": 1
+      },
+      "product_refs": [
+        "#2262966"
+      ],
+      "usage_refs": [
+        "#22290",
+        "#22291"
+      ]
+    },
+    {
+      "family": "Support-Tube",
+      "product_records": 1,
+      "assembly_usage_records": 4,
+      "versions": {
+        "2": 1
+      },
+      "product_refs": [
+        "#2262945"
+      ],
+      "usage_refs": [
+        "#22264",
+        "#22265",
+        "#22266",
+        "#22267"
+      ]
+    },
+    {
+      "family": "SupportActionneur",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262915"
+      ],
+      "usage_refs": [
+        "#22140",
+        "#22162"
+      ]
+    },
+    {
+      "family": "TigeVerrouillage",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262896"
+      ],
+      "usage_refs": [
+        "#22127"
+      ]
+    },
+    {
+      "family": "Trappe",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2263017"
+      ],
+      "usage_refs": [
+        "#22434"
+      ]
+    },
+    {
+      "family": "Tube-Experience",
+      "product_records": 4,
+      "assembly_usage_records": 4,
+      "versions": {
+        "5": 4
+      },
+      "product_refs": [
+        "#2262922",
+        "#2262928",
+        "#2262938",
+        "#2262941"
+      ],
+      "usage_refs": [
+        "#22257",
+        "#22259",
+        "#22262",
+        "#22263"
+      ]
+    },
+    {
+      "family": "Verroux",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262893"
+      ],
+      "usage_refs": [
+        "#22116"
+      ]
+    },
+    {
+      "family": "fixationActionneur",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262916"
+      ],
+      "usage_refs": [
+        "#22163"
+      ]
+    },
+    {
+      "family": "ressortComprime",
+      "product_records": 1,
+      "assembly_usage_records": 9,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262908"
+      ],
+      "usage_refs": [
+        "#22124",
+        "#22125",
+        "#22126",
+        "#22141",
+        "#22144",
+        "#22145",
+        "#22148",
+        "#22149",
+        "#22152"
+      ]
+    },
+    {
+      "family": "separatioin",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#2262900"
+      ],
+      "usage_refs": [
+        "#22131"
+      ]
+    }
+  ],
+  "removed_families": [
+    {
+      "family": "90592A085_Steel Hex Nut (2)",
+      "product_records": 2,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 2
+      },
+      "product_refs": [
+        "#1985962",
+        "#1985966"
+      ],
+      "usage_refs": [
+        "#23860",
+        "#23861",
+        "#23862",
+        "#23867",
+        "#23868",
+        "#23869"
+      ]
+    },
+    {
+      "family": "91290A124_Alloy Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#1988462"
+      ],
+      "usage_refs": [
+        "#27250",
+        "#27252",
+        "#27253",
+        "#27254",
+        "#27255",
+        "#27256"
+      ]
+    },
+    {
+      "family": "91292A133_18-8 Stainless Steel Socket Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#1984928"
+      ],
+      "usage_refs": [
+        "#22276",
+        "#22279"
+      ]
+    },
+    {
+      "family": "91294A003_Black-Oxide Alloy Steel Hex Drive Flat Head Screw",
+      "product_records": 1,
+      "assembly_usage_records": 12,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#1984930"
+      ],
+      "usage_refs": [
+        "#22282",
+        "#22283",
+        "#22284",
+        "#22285",
+        "#22286",
+        "#22287",
+        "#22288",
+        "#22289",
+        "#22290",
+        "#22291",
+        "#22292",
+        "#22293"
+      ]
+    },
+    {
+      "family": "ASS-C8",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "16": 1
+      },
+      "product_refs": [
+        "#1988450"
+      ],
+      "usage_refs": [
+        "#27270"
+      ]
+    },
+    {
+      "family": "ASS_C2_N1",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "102": 1
+      },
+      "product_refs": [
+        "#1984907"
+      ],
+      "usage_refs": [
+        "#27262"
+      ]
+    },
+    {
+      "family": "ASS_C4",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "122": 1
+      },
+      "product_refs": [
+        "#1985985"
+      ],
+      "usage_refs": [
+        "#27268"
+      ]
+    },
+    {
+      "family": "Actionneur",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#1984917"
+      ],
+      "usage_refs": [
+        "#22246",
+        "#22256"
+      ]
+    },
+    {
+      "family": "AnneauSupportC5 n°1 v1\r\n7",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#1985959"
+      ],
+      "usage_refs": [
+        "#23885"
+      ]
+    },
+    {
+      "family": "BMS 3S 40A",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "2": 1
+      },
+      "product_refs": [
+        "#1988459"
+      ],
+      "usage_refs": [
+        "#27225",
+        "#27226"
+      ]
+    },
+    {
+      "family": "CasePara n°3",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "24": 2
+      },
+      "product_refs": [
+        "#1984908",
+        "#1984911"
+      ],
+      "usage_refs": [
+        "#22251",
+        "#22253"
+      ]
+    },
+    {
+      "family": "CouvercleTechnique",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "12": 1
+      },
+      "product_refs": [
+        "#1984920"
+      ],
+      "usage_refs": [
+        "#22250",
+        "#22259"
+      ]
+    },
+    {
+      "family": "M3 252mm",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "5": 1
+      },
+      "product_refs": [
+        "#1984922"
+      ],
+      "usage_refs": [
+        "#22240",
+        "#22241"
+      ]
+    },
+    {
+      "family": "M4 105mm",
+      "product_records": 1,
+      "assembly_usage_records": 4,
+      "versions": {
+        "2": 1
+      },
+      "product_refs": [
+        "#1984956"
+      ],
+      "usage_refs": [
+        "#24085",
+        "#24151",
+        "#24152",
+        "#24153"
+      ]
+    },
+    {
+      "family": "M4 150mm",
+      "product_records": 1,
+      "assembly_usage_records": 2,
+      "versions": {
+        "1": 1
+      },
+      "product_refs": [
+        "#1984949"
+      ],
+      "usage_refs": [
+        "#24088",
+        "#24089"
+      ]
+    },
+    {
+      "family": "M4 66mm",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "5": 1
+      },
+      "product_refs": [
+        "#1984953"
+      ],
+      "usage_refs": [
+        "#24087",
+        "#24125",
+        "#24126",
+        "#24127",
+        "#24128",
+        "#24129"
+      ]
+    },
+    {
+      "family": "M4 85mm",
+      "product_records": 1,
+      "assembly_usage_records": 6,
+      "versions": {
+        "8": 1
+      },
+      "product_refs": [
+        "#1984951"
+      ],
+      "usage_refs": [
+        "#24086",
+        "#24114",
+        "#24115",
+        "#24116",
+        "#24117",
+        "#24118"
+      ]
+    },
+    {
+      "family": "PCB",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "11": 2
+      },
+      "product_refs": [
+        "#1988456",
+        "#1988458"
+      ],
+      "usage_refs": [
+        "#27227",
+        "#27236"
+      ]
+    },
+    {
+      "family": "PeauChargeUtile N2",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "5": 1
+      },
+      "product_refs": [
+        "#1985993"
+      ],
+      "usage_refs": [
+        "#27215"
+      ]
+    },
+    {
+      "family": "Support-Bat n°2",
+      "product_records": 2,
+      "assembly_usage_records": 2,
+      "versions": {
+        "9": 2
+      },
+      "product_refs": [
+        "#1988455",
+        "#1988457"
+      ],
+      "usage_refs": [
+        "#27248",
+        "#27249"
+      ]
+    },
+    {
+      "family": "Support-ogive",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "6": 1
+      },
+      "product_refs": [
+        "#1988449"
+      ],
+      "usage_refs": [
+        "#27221"
+      ]
+    },
+    {
+      "family": "TATTU 1300mah 3s",
+      "product_records": 3,
+      "assembly_usage_records": 3,
+      "versions": {
+        "5": 3
+      },
+      "product_refs": [
+        "#1988451",
+        "#1988452",
+        "#1988453"
+      ],
+      "usage_refs": [
+        "#27245",
+        "#27246",
+        "#27247"
+      ]
+    },
+    {
+      "family": "tattu 1300MHa 3s LiPo",
+      "product_records": 1,
+      "assembly_usage_records": 3,
+      "versions": {
+        "unversioned": 1
+      },
+      "product_refs": [
+        "#1988454"
+      ],
+      "usage_refs": [
+        "#27222",
+        "#27223",
+        "#27224"
+      ]
+    },
+    {
+      "family": "trappe",
+      "product_records": 1,
+      "assembly_usage_records": 1,
+      "versions": {
+        "50": 1
+      },
+      "product_refs": [
+        "#1984921"
+      ],
+      "usage_refs": [
+        "#22260"
+      ]
+    }
+  ],
+  "common_family_count": 2339,
+  "quantity_changes": [
+    {
+      "family": "90592A085_Steel Hex Nut",
+      "before_product_records": 15,
+      "after_product_records": 9,
+      "before_assembly_usage_records": 63,
+      "after_assembly_usage_records": 37
+    },
+    {
+      "family": "90592A085_Steel Hex Nut (1)",
+      "before_product_records": 5,
+      "after_product_records": 3,
+      "before_assembly_usage_records": 12,
+      "after_assembly_usage_records": 10
+    },
+    {
+      "family": "91290A117_Alloy Steel Socket Head Screw",
+      "before_product_records": 3,
+      "after_product_records": 3,
+      "before_assembly_usage_records": 24,
+      "after_assembly_usage_records": 19
+    },
+    {
+      "family": "91290A123_Alloy Steel Socket Head Screw",
+      "before_product_records": 2,
+      "after_product_records": 4,
+      "before_assembly_usage_records": 9,
+      "after_assembly_usage_records": 18
+    },
+    {
+      "family": "91290A171_Alloy Steel Socket Head Screw",
+      "before_product_records": 1,
+      "after_product_records": 2,
+      "before_assembly_usage_records": 4,
+      "after_assembly_usage_records": 6
+    },
+    {
+      "family": "AnneauSupportC5 n°2",
+      "before_product_records": 1,
+      "after_product_records": 2,
+      "before_assembly_usage_records": 1,
+      "after_assembly_usage_records": 2
+    },
+    {
+      "family": "BlocTige",
+      "before_product_records": 1,
+      "after_product_records": 1,
+      "before_assembly_usage_records": 2,
+      "after_assembly_usage_records": 1
+    },
+    {
+      "family": "Camera",
+      "before_product_records": 2,
+      "after_product_records": 2,
+      "before_assembly_usage_records": 4,
+      "after_assembly_usage_records": 3
+    },
+    {
+      "family": "Camera-holder",
+      "before_product_records": 4,
+      "after_product_records": 3,
+      "before_assembly_usage_records": 4,
+      "after_assembly_usage_records": 3
+    },
+    {
+      "family": "Ecrou_Hex_auto-freine_Assemblage_Ecrou frein inox 304 Ø4",
+      "before_product_records": 1,
+      "after_product_records": 1,
+      "before_assembly_usage_records": 69,
+      "after_assembly_usage_records": 48
+    },
+    {
+      "family": "PeauChargeUtile N1",
+      "before_product_records": 1,
+      "after_product_records": 1,
+      "before_assembly_usage_records": 2,
+      "after_assembly_usage_records": 3
+    },
+    {
+      "family": "PeauSeparation",
+      "before_product_records": 1,
+      "after_product_records": 1,
+      "before_assembly_usage_records": 1,
+      "after_assembly_usage_records": 2
+    },
+    {
+      "family": "PinEjection",
+      "before_product_records": 1,
+      "after_product_records": 1,
+      "before_assembly_usage_records": 4,
+      "after_assembly_usage_records": 6
+    },
+    {
+      "family": "elecCamera",
+      "before_product_records": 1,
+      "after_product_records": 1,
+      "before_assembly_usage_records": 4,
+      "after_assembly_usage_records": 3
+    }
+  ],
+  "version_changes": [
+    {
+      "family": "22-16 female flat spade red",
+      "before_versions": {
+        "2": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "ASS-C0",
+      "before_versions": {
+        "22": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "ASS-C3",
+      "before_versions": {
+        "101": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "ASS-C6",
+      "before_versions": {
+        "39": 1
+      },
+      "after_versions": {
+        "2": 1
+      }
+    },
+    {
+      "family": "ASS_C1",
+      "before_versions": {
+        "101": 1
+      },
+      "after_versions": {
+        "22": 1
+      }
+    },
+    {
+      "family": "ASS_C10",
+      "before_versions": {
+        "8": 1
+      },
+      "after_versions": {
+        "2": 1
+      }
+    },
+    {
+      "family": "ASS_C7",
+      "before_versions": {
+        "41": 1
+      },
+      "after_versions": {
+        "6": 1
+      }
+    },
+    {
+      "family": "Anneau",
+      "before_versions": {
+        "5": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Anneau - Bas",
+      "before_versions": {
+        "22": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Anneau antiretour",
+      "before_versions": {
+        "22": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Anneau structure",
+      "before_versions": {
+        "5": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "AnneauSupportC5",
+      "before_versions": {
+        "8": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "AnneauSupportC5 n°2",
+      "before_versions": {
+        "6": 1
+      },
+      "after_versions": {
+        "2": 2
+      }
+    },
+    {
+      "family": "Anneau_final",
+      "before_versions": {
+        "19": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Assemblage",
+      "before_versions": {
+        "12": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Bague-fermeture",
+      "before_versions": {
+        "38": 1
+      },
+      "after_versions": {
+        "18": 1
+      }
+    },
+    {
+      "family": "Base coiffe cargo",
+      "before_versions": {
+        "26": 1
+      },
+      "after_versions": {
+        "8": 1
+      }
+    },
+    {
+      "family": "Bras",
+      "before_versions": {
+        "21": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Camera",
+      "before_versions": {
+        "1": 2
+      },
+      "after_versions": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "family": "Camera-holder",
+      "before_versions": {
+        "35": 1,
+        "26": 3
+      },
+      "after_versions": {
+        "3": 3
+      }
+    },
+    {
+      "family": "Case FPV",
+      "before_versions": {
+        "52": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Coiffe_mod",
+      "before_versions": {
+        "7": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "CouvreMoteur",
+      "before_versions": {
+        "3": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Display_OLED_0.96_128x64",
+      "before_versions": {
+        "4": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Déport guide 1",
+      "before_versions": {
+        "4": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Déport guide 2",
+      "before_versions": {
+        "20": 1
+      },
+      "after_versions": {
+        "9": 1
+      }
+    },
+    {
+      "family": "Déport guide 3",
+      "before_versions": {
+        "14": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Elec_Holder",
+      "before_versions": {
+        "19": 1
+      },
+      "after_versions": {
+        "6": 1
+      }
+    },
+    {
+      "family": "Fermeture",
+      "before_versions": {
+        "32": 1
+      },
+      "after_versions": {
+        "8": 1
+      }
+    },
+    {
+      "family": "IHM",
+      "before_versions": {
+        "32": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "IHMElec",
+      "before_versions": {
+        "17": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "M3 634mm",
+      "before_versions": {
+        "2": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "MB1430-G431KBT6-A02",
+      "before_versions": {
+        "2": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "MotorShield-pcb",
+      "before_versions": {
+        "3": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Patin",
+      "before_versions": {
+        "2": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "PeauChargeUtile N1",
+      "before_versions": {
+        "12": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "PeauSeparation",
+      "before_versions": {
+        "12": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Plaque Parachute",
+      "before_versions": {
+        "4": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Porte_PCB_n°3 MSE",
+      "before_versions": {
+        "7": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Porte_PCB_n°4 MSE",
+      "before_versions": {
+        "13": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "RBF-structure",
+      "before_versions": {
+        "2": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "RingElec",
+      "before_versions": {
+        "19": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "SupportRenfort",
+      "before_versions": {
+        "15": 1
+      },
+      "after_versions": {
+        "9": 1
+      }
+    },
+    {
+      "family": "V-156-1C25 micro switch",
+      "before_versions": {
+        "4": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "Vis_ID_2",
+      "before_versions": {
+        "4": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "accelero-contact",
+      "before_versions": {
+        "31": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "aileron n°2",
+      "before_versions": {
+        "2": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "assemblage",
+      "before_versions": {
+        "217": 1
+      },
+      "after_versions": {
+        "60": 1
+      }
+    },
+    {
+      "family": "couplage_bas",
+      "before_versions": {
+        "74": 1
+      },
+      "after_versions": {
+        "2": 1
+      }
+    },
+    {
+      "family": "elecCamera",
+      "before_versions": {
+        "3": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    },
+    {
+      "family": "structureInterne",
+      "before_versions": {
+        "35": 1
+      },
+      "after_versions": {
+        "14": 1
+      }
+    },
+    {
+      "family": "trappeElec Copier",
+      "before_versions": {
+        "3": 1
+      },
+      "after_versions": {
+        "1": 1
+      }
+    }
+  ],
+  "entity_type_count_changes": [
+    {
+      "entity_type": "ADVANCED_BREP_SHAPE_REPRESENTATION",
+      "before": 2056,
+      "after": 2134
+    },
+    {
+      "entity_type": "ADVANCED_FACE",
+      "before": 54009,
+      "after": 58007
+    },
+    {
+      "entity_type": "AXIS2_PLACEMENT_3D",
+      "before": 80881,
+      "after": 88029
+    },
+    {
+      "entity_type": "BOUNDED_CURVE",
+      "before": 2655,
+      "after": 4404
+    },
+    {
+      "entity_type": "BOUNDED_SURFACE",
+      "before": 499,
+      "after": 565
+    },
+    {
+      "entity_type": "BREP_WITH_VOIDS",
+      "before": 1,
+      "after": 2
+    },
+    {
+      "entity_type": "B_SPLINE_CURVE",
+      "before": 2655,
+      "after": 4404
+    },
+    {
+      "entity_type": "B_SPLINE_CURVE_WITH_KNOTS",
+      "before": 11060,
+      "after": 16731
+    },
+    {
+      "entity_type": "B_SPLINE_SURFACE",
+      "before": 499,
+      "after": 565
+    },
+    {
+      "entity_type": "B_SPLINE_SURFACE_WITH_KNOTS",
+      "before": 2690,
+      "after": 2931
+    },
+    {
+      "entity_type": "CARTESIAN_POINT",
+      "before": 542655,
+      "after": 716631
+    },
+    {
+      "entity_type": "CIRCLE",
+      "before": 19170,
+      "after": 21491
+    },
+    {
+      "entity_type": "CLOSED_SHELL",
+      "before": 2460,
+      "after": 2547
+    },
+    {
+      "entity_type": "COLOUR_RGB",
+      "before": 149,
+      "after": 163
+    },
+    {
+      "entity_type": "CONICAL_SURFACE",
+      "before": 651,
+      "after": 921
+    },
+    {
+      "entity_type": "CONTEXT_DEPENDENT_OVER_RIDING_STYLED_ITEM",
+      "before": 5,
+      "after": 36
+    },
+    {
+      "entity_type": "CONTEXT_DEPENDENT_SHAPE_REPRESENTATION",
+      "before": 5043,
+      "after": 5261
+    },
+    {
+      "entity_type": "CURVE",
+      "before": 2655,
+      "after": 4404
+    },
+    {
+      "entity_type": "CYLINDRICAL_SURFACE",
+      "before": 10173,
+      "after": 12775
+    },
+    {
+      "entity_type": "DERIVED_UNIT",
+      "before": 2044,
+      "after": 2092
+    },
+    {
+      "entity_type": "DERIVED_UNIT_ELEMENT",
+      "before": 4088,
+      "after": 4184
+    },
+    {
+      "entity_type": "DESCRIPTIVE_REPRESENTATION_ITEM",
+      "before": 2044,
+      "after": 2092
+    },
+    {
+      "entity_type": "DIRECTION",
+      "before": 270937,
+      "after": 288269
+    },
+    {
+      "entity_type": "EDGE_CURVE",
+      "before": 141195,
+      "after": 152989
+    },
+    {
+      "entity_type": "EDGE_LOOP",
+      "before": 59861,
+      "after": 64534
+    },
+    {
+      "entity_type": "ELLIPSE",
+      "before": 1790,
+      "after": 2556
+    },
+    {
+      "entity_type": "FACE_BOUND",
+      "before": 5852,
+      "after": 6527
+    },
+    {
+      "entity_type": "FACE_OUTER_BOUND",
+      "before": 54009,
+      "after": 58007
+    },
+    {
+      "entity_type": "FILL_AREA_STYLE",
+      "before": 149,
+      "after": 163
+    },
+    {
+      "entity_type": "FILL_AREA_STYLE_COLOUR",
+      "before": 149,
+      "after": 163
+    },
+    {
+      "entity_type": "GEOMETRIC_REPRESENTATION_CONTEXT",
+      "before": 3559,
+      "after": 3645
+    },
+    {
+      "entity_type": "GEOMETRIC_REPRESENTATION_ITEM",
+      "before": 3154,
+      "after": 4969
+    },
+    {
+      "entity_type": "GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT",
+      "before": 3559,
+      "after": 3645
+    },
+    {
+      "entity_type": "GLOBAL_UNIT_ASSIGNED_CONTEXT",
+      "before": 3559,
+      "after": 3645
+    },
+    {
+      "entity_type": "ITEM_DEFINED_TRANSFORMATION",
+      "before": 5043,
+      "after": 5261
+    },
+    {
+      "entity_type": "LINE",
+      "before": 109175,
+      "after": 112211
+    },
+    {
+      "entity_type": "MANIFOLD_SOLID_BREP",
+      "before": 2458,
+      "after": 2541
+    },
+    {
+      "entity_type": "MEASURE_REPRESENTATION_ITEM",
+      "before": 2044,
+      "after": 2092
+    },
+    {
+      "entity_type": "NEXT_ASSEMBLY_USAGE_OCCURRENCE",
+      "before": 5043,
+      "after": 5261
+    },
+    {
+      "entity_type": "OPEN_SHELL",
+      "before": 18,
+      "after": 419
+    },
+    {
+      "entity_type": "ORIENTED_CLOSED_SHELL",
+      "before": 1,
+      "after": 4
+    },
+    {
+      "entity_type": "ORIENTED_EDGE",
+      "before": 282302,
+      "after": 303537
+    },
+    {
+      "entity_type": "PLANE",
+      "before": 39600,
+      "after": 40103
+    },
+    {
+      "entity_type": "PRESENTATION_STYLE_ASSIGNMENT",
+      "before": 150,
+      "after": 164
+    },
+    {
+      "entity_type": "PRODUCT",
+      "before": 3558,
+      "after": 3644
+    },
+    {
+      "entity_type": "PRODUCT_DEFINITION",
+      "before": 3558,
+      "after": 3644
+    },
+    {
+      "entity_type": "PRODUCT_DEFINITION_FORMATION",
+      "before": 3558,
+      "after": 3644
+    },
+    {
+      "entity_type": "PRODUCT_DEFINITION_SHAPE",
+      "before": 8601,
+      "after": 8905
+    },
+    {
+      "entity_type": "PRODUCT_RELATED_PRODUCT_CATEGORY",
+      "before": 3558,
+      "after": 3644
+    },
+    {
+      "entity_type": "PROPERTY_DEFINITION",
+      "before": 4088,
+      "after": 4184
+    },
+    {
+      "entity_type": "PROPERTY_DEFINITION_REPRESENTATION",
+      "before": 4088,
+      "after": 4184
+    },
+    {
+      "entity_type": "RATIONAL_B_SPLINE_CURVE",
+      "before": 2655,
+      "after": 4404
+    },
+    {
+      "entity_type": "RATIONAL_B_SPLINE_SURFACE",
+      "before": 499,
+      "after": 565
+    },
+    {
+      "entity_type": "REPRESENTATION",
+      "before": 4088,
+      "after": 4184
+    },
+    {
+      "entity_type": "REPRESENTATION_CONTEXT",
+      "before": 3559,
+      "after": 3645
+    },
+    {
+      "entity_type": "REPRESENTATION_ITEM",
+      "before": 3154,
+      "after": 4969
+    },
+    {
+      "entity_type": "REPRESENTATION_RELATIONSHIP",
+      "before": 5043,
+      "after": 5261
+    },
+    {
+      "entity_type": "REPRESENTATION_RELATIONSHIP_WITH_TRANSFORMATION",
+      "before": 5043,
+      "after": 5261
+    },
+    {
+      "entity_type": "SHAPE_DEFINITION_REPRESENTATION",
+      "before": 3558,
+      "after": 3644
+    },
+    {
+      "entity_type": "SHAPE_REPRESENTATION",
+      "before": 3558,
+      "after": 3644
+    },
+    {
+      "entity_type": "SHAPE_REPRESENTATION_RELATIONSHIP",
+      "before": 7099,
+      "after": 7395
+    },
+    {
+      "entity_type": "SHELL_BASED_SURFACE_MODEL",
+      "before": 18,
+      "after": 419
+    },
+    {
+      "entity_type": "SPHERICAL_SURFACE",
+      "before": 407,
+      "after": 509
+    },
+    {
+      "entity_type": "STYLED_ITEM",
+      "before": 10535,
+      "after": 9401
+    },
+    {
+      "entity_type": "SURFACE",
+      "before": 499,
+      "after": 565
+    },
+    {
+      "entity_type": "SURFACE_SIDE_STYLE",
+      "before": 149,
+      "after": 163
+    },
+    {
+      "entity_type": "SURFACE_STYLE_FILL_AREA",
+      "before": 149,
+      "after": 163
+    },
+    {
+      "entity_type": "SURFACE_STYLE_USAGE",
+      "before": 149,
+      "after": 163
+    },
+    {
+      "entity_type": "TOROIDAL_SURFACE",
+      "before": 488,
+      "after": 768
+    },
+    {
+      "entity_type": "UNCERTAINTY_MEASURE_WITH_UNIT",
+      "before": 3559,
+      "after": 3645
+    },
+    {
+      "entity_type": "VECTOR",
+      "before": 109175,
+      "after": 112211
+    },
+    {
+      "entity_type": "VERTEX_POINT",
+      "before": 93031,
+      "after": 101507
+    }
+  ],
+  "unmapped_changes": {
+    "unresolved_before_usage_refs": [],
+    "unresolved_after_usage_refs": [],
+    "possible_renames": "Not inferred; unmatched families require engineering review."
+  },
+  "summary": {
+    "before_products": 3558,
+    "after_products": 3644,
+    "before_assembly_usages": 5043,
+    "after_assembly_usages": 5261,
+    "before_families": 2363,
+    "after_families": 2427,
+    "added_family_count": 88,
+    "removed_family_count": 24,
+    "quantity_change_count": 14,
+    "version_change_count": 52
+  }
+}

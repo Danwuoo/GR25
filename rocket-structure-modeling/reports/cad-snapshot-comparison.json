@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "scope": "Two original STEP snapshots imported separately; no cross-snapshot rigid registration or component matching.",
+  "evidence_source": "reports/cad-validation.json",
+  "kernel_binding": "OCP 7.9.3.0",
+  "before": {
+    "snapshot": "v217",
+    "source": "sources/v217.step",
+    "original_source_filename": "assemblage v217.step",
+    "sha256": "edc8f3edf5881433e60946a62d565e511818be0585da313c0c0dae7f66dcda86",
+    "read_status": "IFSelect_RetDone",
+    "ocp_version": "7.9.3.0",
+    "step_entity_count": 1989498,
+    "candidate_root_count": 1,
+    "transferred_root_count": 1,
+    "all_candidate_roots_transferred": true,
+    "result_shape_count": 1,
+    "unique_topology_counts": {
+      "compounds": 1,
+      "compsolids": 0,
+      "solids": 4477,
+      "shells": 4498,
+      "faces": 114654,
+      "wires": 123979,
+      "edges": 293054,
+      "vertices": 188956
+    },
+    "bounds_mm": [
+      -1019.6327771012608,
+      -931.5658738867581,
+      123.14302802971798,
+      -506.72419602995603,
+      1311.7341291132361,
+      683.456795839061
+    ],
+    "global_axis_spans_mm": [
+      512.9085810713048,
+      2243.3000029999944,
+      560.3137678093431
+    ],
+    "bounds_metric_note": "OCCT analytic conservative box includes subshape tolerances; no triangulation.",
+    "model_reexported": false
+  },
+  "after": {
+    "snapshot": "v310",
+    "source": "sources/v310.step",
+    "original_source_filename": "assemblage v310.step",
+    "sha256": "1eaf7aa77d721a60669dca6b7cdf336997512613ba6a9508685e8926657ab3d1",
+    "read_status": "IFSelect_RetDone",
+    "ocp_version": "7.9.3.0",
+    "step_entity_count": 2264150,
+    "candidate_root_count": 1,
+    "transferred_root_count": 1,
+    "all_candidate_roots_transferred": true,
+    "result_shape_count": 1,
+    "unique_topology_counts": {
+      "compounds": 1,
+      "compsolids": 0,
+      "solids": 4768,
+      "shells": 5995,
+      "faces": 129196,
+      "wires": 139520,
+      "edges": 336152,
+      "vertices": 219376
+    },
+    "bounds_mm": [
+      -328.71723423243185,
+      -245.97973035048017,
+      -84.14199081840779,
+      231.9551032612318,
+      2091.3202726495565,
+      428.44477495273713
+    ],
+    "global_axis_spans_mm": [
+      560.6723374936637,
+      2337.3000030000367,
+      512.5867657711449
+    ],
+    "bounds_metric_note": "OCCT analytic conservative box includes subshape tolerances; no triangulation.",
+    "model_reexported": false
+  },
+  "topology_count_deltas": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 43098,
+    "faces": 14542,
+    "shells": 1497,
+    "solids": 291,
+    "vertices": 30420,
+    "wires": 15541
+  },
+  "global_axis_span_deltas_mm": [
+    47.76375642235894,
+    94.00000000004229,
+    -47.72700203819818
+  ],
+  "cross_snapshot_rigid_alignment_performed": false,
+  "volume_area_mass_comparison_performed": false,
+  "limitations": [
+    "Indexed topology counts describe kernel shapes under imported assembly placements, not unique engineering parts or flattened BOM quantities.",
+    "Analytic conservative bounding boxes include subshape tolerances and do not use triangulation.",
+    "Each snapshot retains its own global coordinates and placements. Axis-aligned box spans are not intrinsic part dimensions.",
+    "No rigid registration, correspondence matching, shape Boolean difference or per-part dimension analysis was performed.",
+    "v217 has optional volume/area integrals, but v310 does not; neither volume, area nor physical mass is compared here.",
+    "Cross-snapshot fingerprints do not reconstruct intermediate revisions or explain the cause of geometric/topological differences."
+  ]
+}

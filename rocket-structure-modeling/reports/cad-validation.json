@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "method": "Open CASCADE STEPControl_Reader",
+  "versions": [
+    {
+      "version": "v217",
+      "source_fingerprint_reused": true,
+      "status": "passed",
+      "topology_and_import_counts_identical": true,
+      "bounds_delta_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "metric_differences": {},
+      "omitted_metric_comparisons": [
+        "closed_shell_signed_volume_mm3",
+        "surface_area_mm2"
+      ],
+      "tolerances": {
+        "bounds": {
+          "relative": 1e-10,
+          "absolute_mm": 1e-07
+        },
+        "volume": {
+          "relative": 1e-09,
+          "absolute_mm3": 1e-05
+        },
+        "area": {
+          "relative": 1e-09,
+          "absolute_mm2": 1e-06
+        }
+      },
+      "source": {
+        "filename": "assemblage v217.step",
+        "sha256": "edc8f3edf5881433e60946a62d565e511818be0585da313c0c0dae7f66dcda86",
+        "read_status": "IFSelect_RetDone",
+        "ocp_version": "7.9.3.0",
+        "step_entity_count": 1989498,
+        "candidate_root_count": 1,
+        "transferred_root_count": 1,
+        "result_shape_count": 1,
+        "unique_topology_counts": {
+          "compounds": 1,
+          "compsolids": 0,
+          "solids": 4477,
+          "shells": 4498,
+          "faces": 114654,
+          "wires": 123979,
+          "edges": 293054,
+          "vertices": 188956
+        },
+        "bounds_mm": [
+          -1019.6327771012608,
+          -931.5658738867581,
+          123.14302802971798,
+          -506.72419602995603,
+          1311.7341291132361,
+          683.456795839061
+        ],
+        "closed_shell_signed_volume_mm3": 10113467.897818133,
+        "surface_area_mm2": 4103493.070603884,
+        "import_seconds": 273.667,
+        "volume_metric_note": "Unit-density signed integral over closed shells; shared equal faces counted once; no Boolean union.",
+        "bounds_metric_note": "OCCT analytic conservative box includes subshape tolerances; no triangulation.",
+        "model_reexported": false
+      },
+      "output": {
+        "filename": "GR25_v217.step",
+        "sha256": "b5c5dbb91098586c21be6b691c6a94e76ee2bc02963acea9dea37bb7638502bb",
+        "read_status": "IFSelect_RetDone",
+        "ocp_version": "7.9.3.0",
+        "step_entity_count": 1989498,
+        "candidate_root_count": 1,
+        "transferred_root_count": 1,
+        "all_candidate_roots_transferred": true,
+        "result_shape_count": 1,
+        "unique_topology_counts": {
+          "compounds": 1,
+          "compsolids": 0,
+          "solids": 4477,
+          "shells": 4498,
+          "faces": 114654,
+          "wires": 123979,
+          "edges": 293054,
+          "vertices": 188956
+        },
+        "bounds_mm": [
+          -1019.6327771012608,
+          -931.5658738867581,
+          123.14302802971798,
+          -506.72419602995603,
+          1311.7341291132361,
+          683.456795839061
+        ],
+        "closed_shell_signed_volume_mm3": null,
+        "surface_area_mm2": null,
+        "import_seconds": 160.755,
+        "stage_seconds": {
+          "read_file": 28.156,
+          "transfer_roots": 129.759,
+          "topology_counts": 1.515,
+          "analytic_bounds": 1.176
+        },
+        "integrals_computed": false,
+        "integral_omission_note": "Volume/area integrals omitted for this large assembly. Exact numeric geometry preservation is independently verified byte for byte.",
+        "volume_metric_note": "Unit-density signed integral over closed shells; shared equal faces counted once; no Boolean union.",
+        "bounds_metric_note": "OCCT analytic conservative box includes subshape tolerances; no triangulation.",
+        "model_reexported": false
+      }
+    },
+    {
+      "version": "v310",
+      "source_fingerprint_reused": true,
+      "status": "passed",
+      "topology_and_import_counts_identical": true,
+      "bounds_delta_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "metric_differences": {},
+      "omitted_metric_comparisons": [
+        "closed_shell_signed_volume_mm3",
+        "surface_area_mm2"
+      ],
+      "tolerances": {
+        "bounds": {
+          "relative": 1e-10,
+          "absolute_mm": 1e-07
+        },
+        "volume": {
+          "relative": 1e-09,
+          "absolute_mm3": 1e-05
+        },
+        "area": {
+          "relative": 1e-09,
+          "absolute_mm2": 1e-06
+        }
+      },
+      "source": {
+        "filename": "assemblage v310.step",
+        "sha256": "1eaf7aa77d721a60669dca6b7cdf336997512613ba6a9508685e8926657ab3d1",
+        "read_status": "IFSelect_RetDone",
+        "ocp_version": "7.9.3.0",
+        "step_entity_count": 2264150,
+        "candidate_root_count": 1,
+        "transferred_root_count": 1,
+        "all_candidate_roots_transferred": true,
+        "result_shape_count": 1,
+        "unique_topology_counts": {
+          "compounds": 1,
+          "compsolids": 0,
+          "solids": 4768,
+          "shells": 5995,
+          "faces": 129196,
+          "wires": 139520,
+          "edges": 336152,
+          "vertices": 219376
+        },
+        "bounds_mm": [
+          -328.71723423243185,
+          -245.97973035048017,
+          -84.14199081840779,
+          231.9551032612318,
+          2091.3202726495565,
+          428.44477495273713
+        ],
+        "closed_shell_signed_volume_mm3": null,
+        "surface_area_mm2": null,
+        "import_seconds": 240.368,
+        "stage_seconds": {
+          "read_file": 17.077,
+          "transfer_roots": 217.51,
+          "topology_counts": 1.578,
+          "analytic_bounds": 4.006
+        },
+        "integrals_computed": false,
+        "integral_omission_note": "Volume/area integrals omitted for this large assembly. Exact numeric geometry preservation is independently verified byte for byte.",
+        "volume_metric_note": "Unit-density signed integral over closed shells; shared equal faces counted once; no Boolean union.",
+        "bounds_metric_note": "OCCT analytic conservative box includes subshape tolerances; no triangulation.",
+        "model_reexported": false
+      },
+      "output": {
+        "filename": "GR25_v310.step",
+        "sha256": "66e9ed41136f1535c530304b437cbe0280b0fbbac3c282b490c8b09d7a75705d",
+        "read_status": "IFSelect_RetDone",
+        "ocp_version": "7.9.3.0",
+        "step_entity_count": 2264150,
+        "candidate_root_count": 1,
+        "transferred_root_count": 1,
+        "all_candidate_roots_transferred": true,
+        "result_shape_count": 1,
+        "unique_topology_counts": {
+          "compounds": 1,
+          "compsolids": 0,
+          "solids": 4768,
+          "shells": 5995,
+          "faces": 129196,
+          "wires": 139520,
+          "edges": 336152,
+          "vertices": 219376
+        },
+        "bounds_mm": [
+          -328.71723423243185,
+          -245.97973035048017,
+          -84.14199081840779,
+          231.9551032612318,
+          2091.3202726495565,
+          428.44477495273713
+        ],
+        "closed_shell_signed_volume_mm3": null,
+        "surface_area_mm2": null,
+        "import_seconds": 240.073,
+        "stage_seconds": {
+          "read_file": 31.32,
+          "transfer_roots": 203.952,
+          "topology_counts": 1.614,
+          "analytic_bounds": 3.007
+        },
+        "integrals_computed": false,
+        "integral_omission_note": "Volume/area integrals omitted for this large assembly. Exact numeric geometry preservation is independently verified byte for byte.",
+        "volume_metric_note": "Unit-density signed integral over closed shells; shared equal faces counted once; no Boolean union.",
+        "bounds_metric_note": "OCCT analytic conservative box includes subshape tolerances; no triangulation.",
+        "model_reexported": false
+      }
+    }
+  ],
+  "worker_jobs": 2,
+  "scope": "Independent CAD imports and aggregate geometry fingerprints. Exact name-only proof is in reports/validation.json."
+}
